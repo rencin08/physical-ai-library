@@ -1,0 +1,743 @@
+{
+  "act-low-cost-bimanual-manipulation": {
+    "sourceSha256": "2e2fe25860f5f9cee9e655a2714e9f2264a7a5078bcd267c16d3f39af461345a",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "clip-visual-language-pretraining": {
+    "sourceSha256": "6478b6e571a7d6fcd846d8ef77bfd60c285f1986abb8f475eedc43de403074f5",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "cosmos-policy": {
+    "sourceSha256": "05696475c9b5481afbf88673a65f80a46cf3fb87a5755c1410e83d0f468cc6e0",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "cosmos-predict-25": {
+    "sourceSha256": "2597170ef9e8128c1ec3c87aa1eaf321cd599268451da1f61aead325eca576fe",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "diffusion-policy-visuomotor-policy-learning": {
+    "sourceSha256": "b65c474b696a4802d8f1457d86b637ce2c5521412570d3aa928cd54563babc8f",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "dinov2-visual-representations": {
+    "sourceSha256": "3add205547f3ece5fb1ac7a91720aa9fabf02d9cde29a096643ff022449f3e91",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "domain-randomization-sim-to-real": {
+    "sourceSha256": "3fc98c5f4cea050686d45858e647e1b704492121fdae80f8fcd5d560c107f11f",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "dreamerv3-world-models": {
+    "sourceSha256": "d0385798e8bada8e81b915c1743be81d9ce8776f12ed937e09351995e099ce37",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "dreamzero-world-action-model": {
+    "sourceSha256": "cb91d24a04717a6c77fd39594af7f3f85a05317b7078b0d9c8d8b4ddd932f483",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "egoverse-human-data-robot-learning": {
+    "sourceSha256": "d7bb81ba8648a2714458f572f371de81b5df1a38924e8f2d5db7d2e0e31de54d",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "gemini-robotics": {
+    "sourceSha256": "f2c1ab4e73a76013b9ebf5a4ff90bb3d291eee0730304d3ebf4531256a204b78",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "gemini-robotics-15": {
+    "sourceSha256": "771398d4d6dd458b137ae362de1d3434a7ff259cd8d7249b54f2fd7ebefcff45",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "general-purpose-robots-survey": {
+    "sourceSha256": "ded6113098331365590da0d88f59f694b87273bbb4b7e7fce28ad6911662d7a6",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "genie-generative-interactive-environments": {
+    "sourceSha256": "94c63a5ced89355326706c88236591c2972ced12f3dece4f8982f020110c81f3",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "groot-n1-humanoid-foundation-model": {
+    "sourceSha256": "76e38cf679637b816b16edf7170340883dd09175bf334aeeaed49392777731b9",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "human-to-robot-transfer-vlas": {
+    "sourceSha256": "e29e2545d0968988b7591ada7b329b478e879e3f476ef388780e4ad5294cc645",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "lingbot-vla": {
+    "sourceSha256": "4c3a330ec97de773802a2d64799cee4226026b11863f7542b6e612a905cb505d",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "lingbot-vla-2": {
+    "sourceSha256": "4d15ccc778af7ce315a1efe81a403a7611b5e659f0ddec5570f7b7973302dda1",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "mem-multi-scale-embodied-memory": {
+    "sourceSha256": "63413aa32bb2b070ae0a0cbc5d5a2eb77686308725e48f15bcaa338bd3d644aa",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "mobile-aloha-bimanual-mobile-manipulation": {
+    "sourceSha256": "ad457dae227c27b0c2a15badfea5abbc6b0802877b25feceedeb770f0ebdb604",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "oa-wam-object-addressable-world-action-model": {
+    "sourceSha256": "83df65b170d50640dbaf0e23dad5c37f324ef22e26dfc022167baedc4790ca7d",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "octo-generalist-robot-policy": {
+    "sourceSha256": "73bff297cfafe523319162124e6b7f96919c0930e0a380f307255c4c7464ac93",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "open-x-embodiment-robotic-learning-datasets": {
+    "sourceSha256": "13f16aff5afdee583dc25b3c570e9bb0cf6baefb59b539928d919588cd8d9246",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "openvla-open-source-vision-language-action-model": {
+    "sourceSha256": "353c37df34458f12f969b14dfd8b77175b727b9cddea7bb891759beddeefe1be",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "pi-05-open-world-generalization": {
+    "sourceSha256": "6a1029fd8ab6944b74cf22f5e5d30e60bc15699d964b2900af799b807a34b64c",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "pi-06-learning-from-experience": {
+    "sourceSha256": "9f4f5a3070ad9549ea7687ea54baa19858820dbcc0834cc805212d68fd6c8cb3",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "pi-07-steerable-generalist": {
+    "sourceSha256": "d718dbcfcf294f87a2179052dcd2e783ea1f542f484d05dfa2ce139bc00d7d5b",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "pi-zero-vision-language-action-flow-model": {
+    "sourceSha256": "fbdfba56258bdbd220207ba63410c6c943e43a73e97a7a5a47ca0bc74204f821",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "rl-token-efficient-online-rl": {
+    "sourceSha256": "feecf0f5799bcb3775f42d5de5d5832e61eb379bd47b627ad9a0f6c86f3ebf31",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "rt-1-robotics-transformer": {
+    "sourceSha256": "81efe669c8fa50ffc7097886dc78a442fa7a8f7f2451684b93069cb9fbeda767",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "rt-2-vision-language-action-models": {
+    "sourceSha256": "0a62dc36bbbfdea232ad45a0ab75c82e9cf535b55333ff22c02d5da1897ccac3",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "saycan-grounded-language-planning": {
+    "sourceSha256": "48c22d36a044bbbd34e640beb1db4fb4ba57e74d97fefa0fb121d55c31282312",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "smolvla": {
+    "sourceSha256": "cb1bb9a8f824187fcdc32af8c290214487c524f139a3c2def1c6d97adb1fa40c",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "unified-robot-learning-survey-2026": {
+    "sourceSha256": "ed41fe6bc2125c708886e5740435d3da791a192f856590d7e1c86971f18dd934",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "v-jepa-2": {
+    "sourceSha256": "9cfcfde5fb0d9730637da5b9e7317825c3f3d09e91f3553e22eeba42c74d2226",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "v-jepa-21": {
+    "sourceSha256": "b40580916242ade00e2ac177cb01473d511f021d5a25f7552fd17512b3a72bbb",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "world-action-models-survey-2026": {
+    "sourceSha256": "c410bbbd06e25c4592a043acf66ca2dcab5ef03eeae601c29093e50898338df4",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "world-action-models-tutorial-2026": {
+    "sourceSha256": "ac202d7149afca1296cd4a66bffb585314c7c107806400269a2fbd8a6975b13b",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  },
+  "world-model-robot-learning-survey-2026": {
+    "sourceSha256": "1b035d79d5c135fd437e1bbe7625a7e284a405e0451a240e816ce5dcaf35f586",
+    "figures": [],
+    "chapters": [
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "fallbackReasons": [
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally.",
+      "Original figures are not bundled with this open-source edition. Use the source PDF links below to view the author figures, or import them locally."
+    ],
+    "distribution": "source-links-only"
+  }
+}

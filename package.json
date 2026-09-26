@@ -1,0 +1,51 @@
+{
+  "name": "physical-ai-library",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "test:e2e": "playwright test",
+    "refresh:citations": "node scripts/refresh-citations.mjs",
+    "discovery:status": "node scripts/discovery.mjs status",
+    "discovery:run": "node scripts/discovery.mjs run",
+    "discovery:schedule": "node scripts/install-discovery-agent.mjs",
+    "guide:droid:prepare": "node scripts/generate-droid-guide.mjs --prepare",
+    "guide:droid:generate": "node scripts/generate-droid-guide.mjs --generate",
+    "guide:library:prepare": "node scripts/prepare-library-guides.mjs",
+    "guide:library:generate": "node scripts/generate-library-guides.mjs --generate",
+    "guide:library:check": "node scripts/review-library-guides.mjs",
+    "guide:figures:prepare": "python3 scripts/prepare-library-figures.py",
+    "guide:figures:check": "node scripts/check-library-figures.mjs",
+    "guide:library:integrate": "node scripts/integrate-library-guide.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.116.0",
+    "fast-xml-parser": "^5.11.1",
+    "lucide-react": "^0.468.0",
+    "next": "^15.5.25",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "15.5.3",
+    "supabase": "^2.117.0",
+    "typescript": "^5.7.2"
+  },
+  "license": "MIT",
+  "description": "A personal research library with paper discovery, a book-style reader, bookmarks, and a learning journal.",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "overrides": {
+    "postcss": "^8.5.23"
+  }
+}

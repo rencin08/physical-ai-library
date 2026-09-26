@@ -1,0 +1,38 @@
+# Build output and dependencies
+node_modules/
+.next/
+.next-*/
+out/
+*.tsbuildinfo
+next-env.d.ts
+coverage/
+playwright-report/
+test-results/
+
+# Local configuration and credentials
+.env*
+!.env.example
+.vercel/
+supabase/.temp/
+supabase/.branches/
+
+# Personal data and local exports
+*-journal-*.json
+backups/
+
+# Local tooling
+.DS_Store
+*.log
+
+# Unreviewed guide drafts and cached source papers
+.guide-drafts/
+
+# Personal imports, discovery preferences, and worker state
+.library/
+__pycache__/
+
+# Locally extracted paper images require separate redistribution review
+public/paper-figures/*/
+!public/paper-figures/droid/
+!public/paper-figures/fast/
+.venv/

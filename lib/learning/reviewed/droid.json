@@ -1,0 +1,346 @@
+{
+  "provenance": {
+    "model": "gpt-6-sol",
+    "generatedAt": "2026-09-23T18:54:18.051Z",
+    "reviewedAt": "2026-09-23T18:56:30.804Z",
+    "sourceUrl": "https://arxiv.org/html/2403.12945v2",
+    "sourceSha256": "dc5f9f9f4a2c128b647d8447602b12379ff75ee291ffd9cd45a1127bd8616897",
+    "reviewNotes": [
+      "Checked result numbers and legends against Figures 6 and 8, task/object axes against Figure 1, and calibration plot against Figure 14.",
+      "Corrected GUI panel ordering to avoid suggesting a clockwise procedure. Removed repetitive license language already supplied by the figure caption.",
+      "Kept the error-bar description at the specificity provided by the paper.",
+      "Retained source inconsistencies as explicit notes rather than resolving them by guesswork."
+    ]
+  },
+  "title": "DROID: Learning from robot demonstrations collected across everyday spaces",
+  "paperQuestion": "Can a large, varied collection of real-world robot demonstrations make manipulation policies more reliable, especially when objects or surroundings change?",
+  "contribution": "DROID is a dataset and distributed data-collection effort, not a new robot or learning algorithm. It contains 76,000 successful demonstration trajectories, approximately 350 hours of interaction, across 564 scenes and 86 task verbs. The authors also release collection and policy-training resources.",
+  "finding": "In six robot tasks, policies co-trained with DROID achieved higher average success than policies trained only on task demonstrations or co-trained with the evaluated Open X-Embodiment subset. A size-matched comparison on three out-of-distribution tasks also favored demonstrations drawn from more diverse scenes.",
+  "chapters": [
+    {
+      "name": "Overview",
+      "title": "Why collect demonstrations outside the lab?",
+      "explanation": [
+        {
+          "text": "A manipulation policy maps what a robot sees and is asked to do into actions. To work beyond one carefully arranged table, it must cope with unfamiliar rooms, objects, lighting, and camera views. Robot demonstrations cannot simply be scraped from the web: someone must operate and supervise a robot while recording its observations and actions. DROID tackles that data bottleneck.",
+          "sourceAnchor": "S1.p2"
+        },
+        {
+          "text": "The contribution is a dataset gathered with a shared, portable collection setup: 76,000 successful trajectories, about 350 hours, 564 distinct workspaces, and 86 task verbs. Those verbs are a way of counting behaviors in language instructions, not 86 exhaustively specified evaluation tasks. The paper tests the dataset’s usefulness by adding its demonstrations to otherwise comparable policy-training runs.",
+          "sourceAnchor": "S1.p3"
+        },
+        {
+          "text": "The examples below separate three ideas: the hardware makes distributed collection practical; the scene montage shows the range of workspaces; and the evaluation photographs show where learned policies were tested. Photographs establish what settings were included, not how often a policy succeeded. The measured comparison comes later, from robot rollouts across six tasks in four locations.",
+          "sourceAnchor": "S5.p1"
+        }
+      ],
+      "views": [
+        {
+          "asset": "setup.png",
+          "title": "A portable, repeatable collection setup",
+          "explanation": "Follow the arrows to the Franka arm and gripper, two adjustable exterior cameras, wrist camera, teleoperation headset, laptop, and movable desk. Together they make it practical to record comparable demonstrations at different sites.",
+          "sourceAnchor": "S3.F0",
+          "panels": [
+            {
+              "label": "Arm and gripper",
+              "explanation": "The shared manipulation hardware helps keep action recordings comparable across collecting sites."
+            },
+            {
+              "label": "Cameras and portable desk",
+              "explanation": "Adjustable views and a movable base let collectors change workspaces rather than repeatedly record one tabletop."
+            }
+          ],
+          "conclusion": "A common, mobile hardware stack helped multiple institutions gather varied demonstrations in a consistent format."
+        },
+        {
+          "asset": "scenes.png",
+          "title": "What “in the wild” looks like",
+          "explanation": "Read the labeled blocks as example workspaces—such as bathrooms, bedrooms, kitchens, laboratories, and offices. Each block contains several photographs; these are examples, not a chart of scene counts.",
+          "sourceAnchor": "A2.F10",
+          "panels": [
+            {
+              "label": "Labeled room blocks",
+              "explanation": "The robot appears among different furniture, backgrounds, and everyday objects."
+            }
+          ],
+          "conclusion": "The collected observations extend beyond a single lab arrangement, although the montage alone cannot quantify coverage."
+        },
+        {
+          "asset": "evaluation.png",
+          "title": "Six tasks used to test policy learning",
+          "explanation": "Read left to right: waffle maker, chips and plate, apple and pot, toasting, desk cleanup, and lentil cooking. The bottom labels group the photographs into lab, office, and household settings.",
+          "sourceAnchor": "S4.F5",
+          "panels": [
+            {
+              "label": "Four lab-task photographs",
+              "explanation": "These range from closing or placing an object to a task with multiple steps."
+            },
+            {
+              "label": "Office and household photographs",
+              "explanation": "Desk cleanup and lentil cooking test policies in less standardized surroundings."
+            }
+          ],
+          "conclusion": "The evaluation spans different task lengths and settings; these images identify the test conditions rather than report success."
+        }
+      ],
+      "takeaway": "DROID addresses a data-diversity problem; its value must be judged both by what was collected and by controlled policy comparisons.",
+      "question": "Is DROID a robot or a new policy architecture?",
+      "answer": "Neither. It is principally a robot-manipulation dataset, supported by a reproducible collection platform; the experiments use an existing diffusion-policy approach."
+    },
+    {
+      "name": "Method",
+      "title": "How were varied demonstrations collected?",
+      "explanation": [
+        {
+          "text": "Collectors moved the shared robot setup to a workspace, chose useful exterior-camera angles, and calibrated the cameras with a checkerboard. They entered feasible tasks for that scene into collection software. The software randomly requested a task for each episode, reducing the tendency to demonstrate only the easiest or nearest action. Collectors teleoperated the robot and marked whether each trajectory succeeded.",
+          "sourceAnchor": "S3.SS2.p2"
+        },
+        {
+          "text": "The software also periodically requested changes such as adjusting the robot, cameras, lighting, or objects. Those prompts vary observations within a workspace; not every adjustment counts as a new scene. DROID’s scene count refers to substantial changes in the robot’s workspace, while camera-position changes contribute to viewpoint diversity. A typical session recorded up to 100 trajectories before moving elsewhere.",
+          "sourceAnchor": "S3.SS2.p2"
+        },
+        {
+          "text": "Each recorded trajectory includes synchronized camera observations and robot state; natural-language instructions were added afterward through crowdsourced labeling. The collection counted 76,000 successful episodes and also released roughly 16,000 labeled unsuccessful trajectories that are excluded from that headline count. Movable exterior cameras produced many viewing angles, making the collection useful for studying visual generalization as well as task variety.",
+          "sourceAnchor": "S3.SS2.p2"
+        }
+      ],
+      "views": [
+        {
+          "asset": "protocol.png",
+          "title": "Figure 9: the four collection-software screens",
+          "explanation": "The four panels show the collection workflow: list feasible tasks (top left), receive a requested behavior (top right), monitor a recording (bottom left), and receive a scene-change prompt (bottom right). Three panels are mostly gray because they contain text and controls; the recording panel shows live camera images. They are screenshots from the paper, not empty image placeholders.",
+          "sourceAnchor": "A1.F9",
+          "panels": [
+            {
+              "label": "Top left — scene configuration",
+              "explanation": "The collector selects suggested tasks or enters free-form tasks that are feasible in this workspace."
+            },
+            {
+              "label": "Top right — requested behavior",
+              "explanation": "A randomly selected task tells the collector which demonstration to record next."
+            },
+            {
+              "label": "Bottom left — live trajectory",
+              "explanation": "RGB and depth streams let the collector monitor the recorded camera views."
+            },
+            {
+              "label": "Bottom right — requested scene changes",
+              "explanation": "Periodic prompts encourage variation between demonstrations."
+            }
+          ],
+          "conclusion": "The interface turns diversity goals into repeatable choices during collection without fixing one task list for every location."
+        },
+        {
+          "asset": "viewpoints.png",
+          "title": "Where the exterior cameras looked from",
+          "explanation": "Wireframe pyramids represent sampled third-person camera poses around the robot; the inset supplies a side view. Position and orientation matter here, not an x–y chart scale. Brighter colors indicate denser regions of viewpoints, rather than better camera quality.",
+          "sourceAnchor": "S4.F3",
+          "panels": [
+            {
+              "label": "Main perspective",
+              "explanation": "Camera symbols occupy many positions and orientations around the arm."
+            },
+            {
+              "label": "Side-view inset",
+              "explanation": "The additional angle helps reveal variation in camera height and placement."
+            }
+          ],
+          "conclusion": "The sampled poses illustrate the paper’s reported coverage of 1,417 viewpoints; the drawing is not a policy-performance measurement."
+        }
+      ],
+      "takeaway": "DROID’s diversity was organized through site changes, collector choice, randomized task prompts, and adjustable cameras.",
+      "question": "Does moving a camera automatically create a new scene?",
+      "answer": "No. The authors count a new scene when the robot’s workspace changes substantially; camera movement alone is not sufficient."
+    },
+    {
+      "name": "Training & example",
+      "title": "What did the policies learn from DROID?",
+      "explanation": [
+        {
+          "text": "DROID itself is collected data, not a model trained by the authors’ new algorithm. To test its value, they trained existing diffusion policies: imitation-learning models that learn to generate action sequences from demonstrations. Inputs included two exterior RGB views, a language instruction, and robot state; predicted actions specified the robot end-effector’s translation and rotation and its gripper. The wrist camera belongs to the dataset but was not used as a policy image input here.",
+          "sourceAnchor": "S5.SS1.SSS0.Px2.p1"
+        },
+        {
+          "text": "The training comparison changed the source of examples, not the policy architecture: batches came from task-specific demonstrations alone, or mixed those demonstrations 50/50 with DROID or a curated Open X-Embodiment (OXE) subset. The learning objective is to imitate demonstrated action trajectories through diffusion-based action prediction. Although the released DROID dataset is larger, the DROID co-training experiments used the first 40,000 successful, language-annotated trajectories available at training time.",
+          "sourceAnchor": "A6.SS2.p1"
+        },
+        {
+          "text": "During inference, the policy conditions on two observations, predicts a 16-step action sequence, executes eight actions without another prediction, and then observes and predicts again. Those are horizons—counts of timesteps—not separate datasets or claims that a pictured robot followed a teaching animation. The Cook Lentils sequence below is instead an author-selected qualitative example of actual evaluation rollouts.",
+          "sourceAnchor": "A6.SS1.p2"
+        }
+      ],
+      "views": [
+        {
+          "asset": "teaching:batch",
+          "title": "Teaching diagram: what changes in a training batch",
+          "explanation": "Library teaching example, not an author figure or model simulation. Toggle between task-only examples and a 50/50 mix of task examples with DROID or OXE; the reported batch size is 128. The diagram explains sampling proportions, not measured model behavior.",
+          "sourceAnchor": "A6.SS2.p1",
+          "panels": [
+            {
+              "label": "Task-only",
+              "explanation": "All examples in a batch come from demonstrations for the evaluation task."
+            },
+            {
+              "label": "50/50 co-training",
+              "explanation": "Half the examples come from task demonstrations and half from the selected additional dataset."
+            }
+          ],
+          "conclusion": "The experiment isolates the effect of additional training data while holding the policy setup otherwise comparable."
+        },
+        {
+          "asset": "teaching:actions",
+          "title": "Teaching diagram: observe, predict, execute, repeat",
+          "explanation": "Library teaching example, not an author figure or simulation. Read the sequence as a two-observation conditioning horizon, a 16-action prediction horizon, and an eight-action execution horizon. After executing eight actions, inference runs again rather than blindly executing the entire prediction.",
+          "sourceAnchor": "A6.SS1.p2",
+          "panels": [
+            {
+              "label": "2 → 16 → 8",
+              "explanation": "The numbers denote observed timesteps, predicted action timesteps, and actions executed before replanning."
+            }
+          ],
+          "conclusion": "A predicted action sequence supplies several commands, while repeated inference lets the policy incorporate later observations."
+        },
+        {
+          "asset": "rollout.png",
+          "title": "A qualitative lentil-cooking example",
+          "explanation": "Columns proceed from removing the lid to picking up and pouring lentils and turning on the stove. Rows compare DROID co-training, OXE co-training, and no co-training; green checks and borders mark completed stages, and red crosses mark stages not completed in these depicted rollouts.",
+          "sourceAnchor": "S5.F7",
+          "panels": [
+            {
+              "label": "DROID row",
+              "explanation": "The selected rollout is marked as completing the displayed stages."
+            },
+            {
+              "label": "OXE and no-co-training rows",
+              "explanation": "The selected comparison rollouts are marked as stopping before the final stage."
+            }
+          ],
+          "conclusion": "The sequence makes a multi-stage outcome visible, but selected rollouts cannot replace the success-rate comparison."
+        }
+      ],
+      "takeaway": "The paper tests whether better demonstration coverage helps an established imitation-learning pipeline; training and robot-time inference are different processes.",
+      "question": "Was the full 76,000-trajectory DROID dataset used in these policy comparisons?",
+      "answer": "No. The appendix specifies that the co-training experiments used the first 40,000 successful trajectories with language annotations available at training time."
+    },
+    {
+      "name": "Results",
+      "title": "What improved, and what comparison supports it?",
+      "explanation": [
+        {
+          "text": "For each task setting and method, the authors ran ten robot rollouts in head-to-head evaluations. In-distribution tests varied starting robot and object positions around the task-demonstration conditions. Out-of-distribution (OOD) tests added changes such as distractors, novel objects, or a camera shift. All three training conditions used the same diffusion-policy setup, making the data source the key comparison.",
+          "sourceAnchor": "S5.SS2.p1"
+        },
+        {
+          "text": "Across the six tasks, Figure 6 reports average in-distribution success of 0.75 for DROID co-training versus 0.53 for the next-best method: 22 percentage points higher. Across the plotted OOD task variants, its average is 0.53 versus 0.36: 17 points higher. Error bars on the averages show the reported standard error; individual bars come from small sets of rollouts and vary substantially by task.",
+          "sourceAnchor": "S5.F6"
+        },
+        {
+          "text": "To probe whether scene variety matters rather than just demonstration count, the authors also compared two DROID subsets of 7,362 successful trajectories: one from the 20 most-recorded scenes and one sampled across diverse scenes. With the same 50/50 co-training scheme, the diverse-scene subset did better on three selected OOD tasks. This supports a role for scene coverage, without isolating every other difference between those samples.",
+          "sourceAnchor": "S5.SS3.p4"
+        }
+      ],
+      "views": [
+        {
+          "asset": "results.png",
+          "title": "Success rates with and without DROID co-training",
+          "explanation": "The top panel is in-distribution and the bottom is OOD. The horizontal axis names task conditions; the vertical axis is success rate from zero to one. Light green means task-only training, teal means OXE co-training, and orange means DROID co-training. The shaded rightmost groups are averages with standard-error bars.",
+          "sourceAnchor": "S5.F6",
+          "panels": [
+            {
+              "label": "Top — in-distribution",
+              "explanation": "Compare bars within each task before reading the across-task average: DROID’s average is 0.75 versus 0.53 for the next best."
+            },
+            {
+              "label": "Bottom — out-of-distribution",
+              "explanation": "The labels identify the specific changes tested; DROID’s average is 0.53 versus 0.36 for the next best, although individual OOD bars differ."
+            }
+          ],
+          "conclusion": "Under the reported rollout protocol, adding DROID produced the strongest average success in both settings; the averages do not mean every task benefited equally."
+        },
+        {
+          "asset": "diversity.png",
+          "title": "A size-matched scene-diversity comparison",
+          "explanation": "The horizontal axis lists three OOD task conditions and their average; the vertical axis is success rate. Teal uses 7,362 DROID trajectories from 20 scenes, while orange uses an equal number sampled across diverse scenes. The average bars are 0.40 and 0.60; the plot shows error bars but does not label their uncertainty measure.",
+          "sourceAnchor": "S5.F8",
+          "panels": [
+            {
+              "label": "Three task groups",
+              "explanation": "For novel-object toasting, desk distractors, and lentil-cooking changes, the orange bar exceeds the teal bar."
+            },
+            {
+              "label": "Average group",
+              "explanation": "The plotted mean rises from 0.40 to 0.60 when the equally sized subset covers diverse scenes."
+            }
+          ],
+          "conclusion": "Keeping subset size fixed strengthens the evidence that scene diversity helps on these selected OOD tests; it is not a universal estimate of its effect."
+        }
+      ],
+      "takeaway": "DROID co-training improved average measured success, while the subset experiment offers narrower evidence that scene coverage is part of the benefit.",
+      "question": "Are the reported 22% and 17% gains relative percentage changes?",
+      "answer": "No. Figure 6 describes differences of 22 and 17 percentage points in average success rate, for in-distribution and OOD evaluations respectively."
+    },
+    {
+      "name": "Limitations & takeaway",
+      "title": "Where does the evidence stop?",
+      "explanation": [
+        {
+          "text": "Dataset breadth is not the same as proven zero-shot generalization. The evaluated policies still received demonstrations for their target tasks, and the robot tests covered six tasks in four locations. Counting task verbs from instructions provides a scalable picture of behavioral variety but cannot establish that every verb is equally well represented. The long tail in the figure makes that imbalance visible.",
+          "sourceAnchor": "S6.p2"
+        },
+        {
+          "text": "Camera calibration also needs care. Initial camera-to-robot measurements can be inaccurate, so the appendix describes automatic post-hoc calibration and quality checks. Figure 14 plots matched points between exterior-camera views as a proxy for geometric alignment; correspondence counts vary across labs, and clutter can yield misleading matches. A calibration matrix being available is therefore not, by itself, proof of equal geometric accuracy everywhere.",
+          "sourceAnchor": "A7.SS3.p4"
+        },
+        {
+          "text": "The practical takeaway is that deliberately collecting demonstrations across workspaces can improve an existing policy-training pipeline, but downstream users should check which trajectories, labels, and calibrations fit their purpose. The authors identify learning tasks in new scenes without any in-domain data, choosing useful dataset slices, and combining DROID with other datasets as open questions—not outcomes established by these experiments.",
+          "sourceAnchor": "S6.p2"
+        }
+      ],
+      "views": [
+        {
+          "asset": "tasks.png",
+          "title": "Breadth comes with a long tail",
+          "explanation": "The top plot orders instruction-derived verbs by episode count; its vertical axis is logarithmic. Small comparison plots at right show other datasets. The bottom plot groups interacted objects by category, also against a logarithmic episode-count axis. Bar shades organize the displays; they are not policy-success scores.",
+          "sourceAnchor": "S3.F1",
+          "panels": [
+            {
+              "label": "Top — verbs",
+              "explanation": "A few behaviors have many episodes, while many others have relatively few; Bridge V2 also has a substantial long tail."
+            },
+            {
+              "label": "Bottom — object categories",
+              "explanation": "The dataset includes many object kinds, but their recording counts are uneven."
+            }
+          ],
+          "conclusion": "Variety is real, yet a long tail means a rare behavior or object may offer limited training examples."
+        },
+        {
+          "asset": "calibration.png",
+          "title": "Camera-pair correspondence quality varies",
+          "explanation": "Each colored small panel represents a lab’s distribution. The horizontal axis counts matched points between two camera views; bars show counts at different match levels, and the overlaid curve is cumulative on its corresponding scale. Colors distinguish panels, not calibrated versus uncalibrated cameras.",
+          "sourceAnchor": "A7.F14",
+          "panels": [
+            {
+              "label": "Small-multiple histograms",
+              "explanation": "Some panels concentrate near low match counts, while others extend farther to the right."
+            },
+            {
+              "label": "Cumulative curves",
+              "explanation": "These help locate the higher-match portion within each lab; match count is a quality proxy, not a direct accuracy guarantee."
+            }
+          ],
+          "conclusion": "Geometric-data users should inspect the supplied calibration quality measures rather than assume uniform quality across collection sites."
+        }
+      ],
+      "takeaway": "DROID is a substantial, useful demonstration resource; the strongest demonstrated claim is improved success in the paper’s task-specific co-training evaluations, not a robot that works everywhere without adaptation.",
+      "question": "Does this paper show a policy solving new tasks in new scenes with no target-task demonstrations?",
+      "answer": "No. That is explicitly left as an open question; the reported evaluations co-train with demonstrations for the target tasks."
+    }
+  ],
+  "uncertainties": [
+    "The supplied v2 text describes the scene-type scheme as 10 types in Section IV, while Figure 10’s caption says nine; this guide does not reconcile those counts.",
+    "Appendix G describes calibration outputs for approximately 36,000 and 24,000 “scenes,” whereas the main dataset count is 564 distinct workspaces. The supplied text does not clearly reconcile these units; those calibration counts are not presented here as additional unique workspaces.",
+    "Figure 8 shows average error bars without specifying their uncertainty measure in its supplied caption. They are not identified here as standard errors.",
+    "The main experimental task description calls the desk-cleanup eraser position fixed, while Appendix E says its starting position and orientation varied on a schedule. This guide does not choose between them."
+  ]
+}

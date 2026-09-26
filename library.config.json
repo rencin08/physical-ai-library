@@ -1,0 +1,12 @@
+{
+  "name": "Physical AI Library",
+  "monogram": "PA",
+  "description": "A personal research library for collecting papers, reading with context, and recording what you learn.",
+  "eyebrow": "A living archive for physical intelligence",
+  "shelfLabel": "The Physical AI Reading Room",
+  "includeExamplePapers": true,
+  "topics": ["VLA", "Robot Data", "World Models", "Diffusion Policies", "Manipulation"],
+  "arxivQuery": "cat:cs.RO OR cat:cs.AI OR cat:cs.CV OR cat:cs.LG OR cat:eess.SY",
+  "arxivRssCategory": "cs.RO",
+  "relevanceTerms": ["robot", "robotic", "manipulation", "embodied", "embodiment", "humanoid", "vision-language-action", "vla", "world model", "teleoperation", "locomotion", "visuomotor", "diffusion policy", "dexterous", "autonomous", "sim-to-real"]
+}

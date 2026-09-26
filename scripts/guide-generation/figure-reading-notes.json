@@ -1,0 +1,9 @@
+{
+  "pi-07-steerable-generalist": {
+    "1": "Read the outer columns as sources of experience and examples of robot behavior. In the center, task instructions, subgoal images, and episode metadata provide context for the VLA. The diagram separates training inputs above from the prompts used at inference below; the photographs illustrate capabilities rather than measure success rates.",
+    "2": "Start with the observations and prompt components that feed the VLA. The backbone passes their representations to the action expert, which generates robot actions. The lower panels show the high-level semantic policy and world model that can supply language and visual subgoals; those supporting models are distinct from the low-level action policy.",
+    "3": "Read each row as a different prompt component. The examples combine visual observations with subtask instructions, image subgoals, and metadata. These are the kinds of context used during training with component dropout, then combined at inference to steer behavior.",
+    "6": "Compare the colored bars within each task, using the legend to distinguish the generalist and specialist policies. The upper panels report throughput and the lower panels report scores. Read them separately: completing more successful tasks per hour is different from a higher score. The photographs identify the evaluated tasks.",
+    "18": "The left panel varies pretraining compute; compare the curves for models trained with and without metadata. The remaining panels examine data-source contributions. These ablations support conclusions about the tested data and compute settings, rather than guarantee continued improvement on every new task."
+  }
+}
